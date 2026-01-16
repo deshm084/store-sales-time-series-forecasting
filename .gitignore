@@ -1,9 +1,13 @@
+# Data - Never commit datasets!
+train.csv
+data/
+*.zip
+
+# Python - Ignore cache and logs
 __pycache__/
 *.pyc
-.venv/
-venv/
+.ipynb_checkpoints/
 .env
-data/*.csv
-data/*.zip
-train.csv
-*.log
+
+# OS - Ignore system files
+.DS_Store
